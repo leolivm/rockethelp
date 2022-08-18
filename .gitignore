@@ -53,3 +53,5 @@ buck-out/
 .expo/
 web-build/
 dist/
+
+api/node_modules
