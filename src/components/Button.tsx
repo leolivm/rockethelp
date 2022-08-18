@@ -9,11 +9,14 @@ export const Button: FC<ButtonProps> = ({ title, ...rest }) => (
   <NativeBaseButton
     bg="green.700"
     h="14"
+    mb="4"
     fontSize="sm"
     rounded="sm"
     _pressed={{ bg: 'green.500' }}
     {...rest}
   >
-    <Heading>{title}</Heading>
+    <Heading color="white" fontSize="sm">
+      {title}
+    </Heading>
   </NativeBaseButton>
 )
